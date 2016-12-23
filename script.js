@@ -13,13 +13,13 @@
                 type;
 
             switch (true) {
-                case (size < 640):
+                case (size < 600):
                     type = 'mob';
                     break;
-                case (size >= 640 && size < 960):
+                case (size >= 600 && size < 900):
                     type = 'pad';
                     break;
-                case (size >= 960 && size < 1280):
+                case (size >= 900 && size < 1200):
                     type = 'dsc';
                     break;
                 default:
